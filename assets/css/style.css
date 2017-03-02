@@ -1,6 +1,5 @@
 
-
-body {
+<body {
 	background-color: white;
 	padding-left: 150px;
 	padding-right: 150px;	
@@ -36,6 +35,10 @@ body {
 	height: 75px;
 	width: 960px;
 	text-align: center;
+}
+
+ul {
+	list-style: none;
 }
 
 .about {
@@ -124,47 +127,279 @@ h3 {
 }
 
 @media screen and (max-width: 980px) {
-	
 	body {
+	background-color: white;
+	width: 100%;
+	height: 100%;	
+}	
+
+.contain {
 	background-image: url(cork-wallet.png);
-	padding-left: 5px;
-	padding-right: 5px;
-	}
-
-	.header {
-		position: static;
-	}
-	
-	.contain {
-		height: inherit;
-	}
-	.about {
-    float: left;
-    padding-left: 150px;
-	}
-
-	.about-me {
-		width: 500px;
-		height: 700px;
-		margin-right: 5px;
-		margin-left: 5px;
-	}
-	
-	.text {
-		width: 500px;
-	}
-	.text-1 {
-		width: 500px;
-	}
-
-	.contact-icon {
-		float: left;
-		margin-right: 5px;
-		width: 170px
-	}
-	
-	.footer {
-		width: 100%;
-	}
+    height: 755px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
 }
 
+.header {
+	background-color: #ffffff;
+	position: relative;
+	width: 100%;
+}
+
+.myname {
+	background-color: #4daaa5;
+	font-size: 25px;
+	float: left;
+	color: white;
+	text-align: center;
+	margin-left: 50px;
+	width: 200px;
+	height: 80px;
+}
+.link {
+	color: #cccccc;
+	background-color: white;
+	font-size: 20px;
+	height: 75px;
+	width: 960px;
+	text-align: center;
+	list-style: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.about {
+	float: left;
+	padding-left: 250px;
+}
+
+.portfolio {
+	float: left;
+	padding-left: 20px;
+}
+
+.contact {
+	float: left;
+	padding-left: 20px;
+	padding-right: 55px;	
+}
+
+.about-me {
+	background-color: white;
+	font-size: 20px;
+	float: left;
+	padding: 30px;
+	width: 630px;
+	height: 450px;
+	margin-bottom: 30px;
+}
+
+img {
+	float: left;
+	position: relative;
+	margin-right: 15px;
+}
+
+.text {
+	text-align: justify;
+	line-height: 1.2;
+}
+
+.text-1 {
+	text-align: justify;
+	line-height: 1.2;
+}
+
+.images {
+	background-color: white;
+	float: left;
+	padding: 20px;
+	width: 687px;
+	height: 500px;
+	margin-bottom: 30px;
+}
+
+.contact-me {
+	background-color: white;
+	clear: both;
+	width: 687px;
+	height: 500px;
+	padding: 20px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
+
+h3 {
+	color: #4daaa5;
+}
+form {
+	width: 100%;
+}
+
+.button {
+	background-color: #4daaa5;
+	width: 100px;
+	height: 50px;
+}
+.contact-icon {
+	background-color: white;
+	color: #4daaa5;
+	clear: both;
+	padding: 5px 0 60px 20px;;
+	margin-right: 5px;
+	position: static;
+}
+
+.footer {
+	background-color: #666666;
+	clear: both;
+	text-align: center;
+	padding-top: 25px;
+	position: relative;
+	height: 50px;
+	border-top: solid 10px;
+	border-color: #4daaa5;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+	background-color: white;
+	width: 100%;
+	height: 100%;	
+}	
+
+.contain {
+	background-image: url(cork-wallet.png);
+    height: 755px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+
+.header {
+	background-color: #ffffff;
+	position: relative;
+	width: 100%;
+}
+
+.myname {
+	background-color: #4daaa5;
+	font-size: 25px;
+	float: left;
+	color: white;
+	text-align: center;
+	margin-left: 50px;
+	width: 200px;
+	height: 80px;
+}
+.link {
+	color: #cccccc;
+	background-color: white;
+	font-size: 20px;
+	height: 75px;
+	width: 960px;
+	text-align: center;
+	list-style: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.about {
+	float: left;
+	padding-left: 250px;
+}
+
+.portfolio {
+	float: left;
+	padding-left: 20px;
+}
+
+.contact {
+	float: left;
+	padding-left: 20px;
+	padding-right: 55px;	
+}
+
+.about-me {
+	background-color: white;
+	font-size: 20px;
+	float: left;
+	padding: 30px;
+	width: 630px;
+	height: 450px;
+	margin-bottom: 30px;
+}
+
+img {
+	float: left;
+	position: relative;
+	margin-right: 15px;
+}
+
+.text {
+	text-align: justify;
+	line-height: 1.2;
+}
+
+.text-1 {
+	text-align: justify;
+	line-height: 1.2;
+}
+
+.images {
+	background-color: white;
+	float: left;
+	padding: 20px;
+	width: 687px;
+	height: 500px;
+	margin-bottom: 30px;
+}
+
+.contact-me {
+	background-color: white;
+	clear: b
+	width: 687px;
+	height: 500px;
+	padding: 20px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
+
+h3 {
+	color: #4daaa5;
+}
+form {
+	width: 100%;
+}
+
+.button {
+	background-color: #4daaa5;
+	width: 100px;
+	height: 50px;
+}
+.contact-icon {
+	background-color: white;
+	color: #4daaa5;
+	clear: both;
+	padding: 5px 0 60px 20px;;
+	margin-right: 5px;
+	position: static;
+}
+
+.footer {
+	background-color: #666666;
+	clear: both;
+	text-align: center;
+	padding-top: 25px;
+	position: relative;
+	height: 50px;
+	border-top: solid 10px;
+	border-color: #4daaa5;
+}
