@@ -1,9 +1,6 @@
 
-<<<<<<< HEAD
+
 body {
-=======
-<body {
->>>>>>> c292fc596ee42a10892764231fa40db51c56d437
 	background-color: white;
 	padding-left: 150px;
 	padding-right: 150px;	
@@ -32,6 +29,7 @@ body {
 	width: 200px;
 	height: 80px;
 }
+
 .link {
 	color: #cccccc;
 	background-color: white;
@@ -162,6 +160,7 @@ h3 {
 	width: 200px;
 	height: 80px;
 }
+
 .link {
 	color: #cccccc;
 	background-color: white;
@@ -289,7 +288,6 @@ form {
 	background-color: #ffffff;
 	position: relative;
 	width: 100%;
-<<<<<<< HEAD
 }
 
 .myname {
@@ -333,9 +331,6 @@ ul {
 	padding-right: 55px;	
 }
 
-=======
-}
-
 .myname {
 	background-color: #4daaa5;
 	font-size: 25px;
@@ -346,6 +341,7 @@ ul {
 	width: 200px;
 	height: 80px;
 }
+
 .link {
 	color: #cccccc;
 	background-color: white;
@@ -376,7 +372,6 @@ ul {
 	padding-right: 55px;	
 }
 
->>>>>>> c292fc596ee42a10892764231fa40db51c56d437
 .about-me {
 	background-color: white;
 	font-size: 20px;
@@ -414,11 +409,7 @@ img {
 
 .contact-me {
 	background-color: white;
-<<<<<<< HEAD
 	clear: both;
-=======
-	clear: b
->>>>>>> c292fc596ee42a10892764231fa40db51c56d437
 	width: 687px;
 	height: 500px;
 	padding: 20px;
@@ -456,7 +447,6 @@ form {
 	height: 50px;
 	border-top: solid 10px;
 	border-color: #4daaa5;
-<<<<<<< HEAD
 }
 
 @media screen and (max-width: 640px) {
@@ -598,6 +588,6 @@ form {
 	height: 50px;
 	border-top: solid 10px;
 	border-color: #4daaa5;
-=======
->>>>>>> c292fc596ee42a10892764231fa40db51c56d437
+}
+
 }
